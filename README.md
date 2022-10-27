@@ -2,7 +2,7 @@
 
 https://drive.google.com/drive/folders/1xStFCLB3-8xOQSMz3BGtVO90rdlgx_a4?usp=sharing
 
-## 專題APP
+## 寫過部分前端及專題APP
 
 ![main page](https://i.imgur.com/yZyu6es.jpg " ")
 
