@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="asandy1023">
+  <title>Headers & headlines</title>
+  <script src="https://cdn.staticfile.org/jquery/2.0.0/jquery.min.js">
+  </script>
+
+
+  <!---->
+  <style>
+    /**/
+    .btn {
+      /* button參數 */
+      --bs-btn-padding-x: 0.75rem;
+      --bs-btn-padding-y: 0.375rem;
+      --bs-btn-font-family: ;
+      --bs-btn-font-size: 1rem;
+      --bs-btn-font-weight: 400;
+      --bs-btn-line-height: 1.5;
+      --bs-btn-color: #212529;
+      --bs-btn-bg: transparent;
+      --bs-btn-border-width: 1px;
+      --bs-btn-border-color: transparent;
+      --bs-btn-border-radius: 0.375rem;
+      --bs-btn-hover-border-color: transparent;
+      --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+      --bs-btn-disabled-opacity: 0.65;
+      --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
+      /* button方法 */
+      display: inline-block;
+      padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+      font-family: var(--bs-btn-font-family);
+      font-size: var(--bs-btn-font-size);
+      font-weight: var(--bs-btn-font-weight);
+      line-height: var(--bs-btn-line-height);
+      color: var(--bs-btn-color);
+      text-align: center;
+      text-decoration: none;
+      vertical-align: middle;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+      border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+      border-radius: var(--bs-btn-border-radius);
+      background-color: var(--bs-btn-bg);
+      transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+    }
+    /* body全域預設字體 */
+    body {
+      font-family: arial, "Microsoft JhengHei", "微軟正黑體", sans-serif;
+    }
+    /* Main headline內黑色部分*/
+    .product-device {
+      position: absolute;
+      right: 10%;
+      bottom: -30%;
+      width: 300px;
+      height: 540px;
+      background-color: #333;
+      border-radius: 21px;
+      transform: rotate(30deg);
+    }
+  /* Main headline內灰色部分*/
+    .product-device::before {
+      position: absolute;
+      top: 10%;
+      right: 10px;
+      bottom: 10%;
+      left: 10px;
+      content: "";
+      background-color: rgba(255, 255, 255, .1);
+      border-radius: 5px;
+    }
+    .li-active{
+      color:rgba(108,117,125);
+    }
+
+    /*自動適配寬度*/
+    .flex-equal>* {
+      flex: 1;
+    }
+
+    @media (min-width: 768px) {
+      .flex-md-equal>* {
+        flex: 1;
+      }
+    }
+    ul li a{
+      color:white;
+    }
+    
+  </style>
+
+
+</head>
+
+<body>
+
+  <main>
+    <h3 class="">asandy1023 examples</h3>
+    <!--header開始處-->
+    <header class=""
+      style="padding:1rem;color:#fff;background-color:RGBA(33,37,41);">
+      <div class="" style="max-width:1500px;min-width:500px;margin-right:auto;margin-left:auto;">
+        <div class="" style="display:flex;align-items:center;flex-wrap:wrap;justify-content:center;">
+          <a href="/" class=""
+            style="display:flex;align-items:center;margin-bottom:.5rem;margin-bottom:0;color:white;">
+            <img src="https://imgur.com/EzmYHP5.jpg" width="30" height="32" style="margin-right:.1rem;" />
+          </a>
+
+          <ul class=""
+            style="flex:0 0 auto;margin-right:auto;margin-bottom:.5rem;display:flex;flex-wrap:wrap;;margin-bottom:0;list-style:none">
+            <li><a href="#" class=""
+                style="display:block;padding:.1em;text-decoration:none; padding-right:.5rem;padding-left:.5rem;">Home</a>
+            </li>
+            <li><a href="#" class=" "
+                style="display:block;padding:.1em;text-decoration:none; padding-right:.5rem;padding-left:.5rem;">Features</a>
+            </li>
+            <li><a href="#" class=" "
+                style="display:block;padding:.1em;text-decoration:none; padding-right:.5rem;padding-left:.5rem;">Classification</a>
+            </li>
+            <li><a href="#" class=" "
+                style="display:block;padding:.1em;text-decoration:none; padding-right:.5rem;padding-left:.5rem;">QA</a>
+            </li>
+            <li><a href="#" class=" "
+                style="display:block;padding:.1em;text-decoration:none; padding-right:.5rem;padding-left:.5rem;">About</a>
+            </li>
+          </ul>
+
+          <form class=""
+            style="margin-bottom:0;flex:0 0 auto;margin-bottom:1rem;margin-right:1rem;margin-bottom:.1rem;"
+            role="search">
+            <input type="search" class="" placeholder="Search..."
+              style="-webkit-appearance:none;-moz-appearance:none;appearance:none;border-radius:.375rem;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out;padding:.375rem .75rem;line-height:1.5;background-clip:padding-box;">
+          </form>
+
+          <div class="" style="text-align:right;">
+            <button type="button" class="btn"
+              style="margin-right:.5rem;--bs-btn-color:#f8f9fa;--bs-btn-border-color:#f8f9fa;--bs-btn-hover-color:#000;">Login</button>
+            <button type="button" class="btn"
+              style="--bs-btn-bg:#ffc107;--bs-btn-border-color:#ffc107;">Sign-up</button>
+          </div>
+        </div>
+      </div>
+    </header>
+  <!--header結束-->
+
+    <div class="flex-md-equal"
+      style="padding:1rem; padding:3rem; margin:1rem;--bs-bg-opacity:1;background-color:white;text-align:center;position:relative;">
+      <div class=""
+        style="width:45%;padding:3rem;margin-right:auto;margin-left:auto;margin-top:3rem;margin-bottom:3rem;">
+        <h1 class="" style="line-height:1.2;font-weight:400;">Main headline</h1>
+        <p class="" style="font-size:1.25rem;font-weight:400;">And wittier subheading...</p>
+        <a class="btn"
+          style="--bs-btn-color:#6c757d;--bs-btn-border-color:#6c757d;--bs-btn-hover-color:#fff;--bs-btn-hover-bg:#6c757d;--bs-btn-hover-border-color:#6c757d;"
+          href="#">Coming soon</a>
+      </div>
+      <div class="product-device"style="box-shadow:0 .125rem .25rem rgba(0,0,0,.075);"></div>
+      <div class="product-device product-device-2"style="box-shadow:0 .125rem .25rem rgba(0,0,0,.075);"></div>
+    </div>
+
+    <div class="flex-md-equal" style="display:flex;width:100%;margin-top:1rem;margin-bottom:1rem;padding-left:1rem">
+      <div class=""
+        style="margin-right:1rem;padding-top:1rem;padding-right:1rem;padding-top:3rem;padding-right:3rem;text-align:center;color:#fff;background-color:RGBA(33,37,41);">
+        <div class="" style="margin-top:1rem;margin-bottom:1rem;padding-top:1rem;padding-bottom:1rem;">
+          <h2 class="" style="font-weight:300;line-height:1.2">Another headline</h2>
+          <p class="" style="font-size:1.25rem;font-weight:300;">And wittier subheading</p>
+        </div>
+        <div class=""
+          style="margin-right:auto;margin-left:auto;width: 80%; height: 300px; border-radius: 21px 21px 0 0;--bs-bg-opacity:1;background-color:white;">
+        </div>
+      </div>
+      <div class=""
+        style="margin-right:1rem;padding-top:1rem;padding-right:1rem;padding-top:3rem;padding-right:3rem;text-align:center;--bs-bg-opacity:1;background-color:white;">
+
+      </div>
+    </div>
+
+    <div class="flex-md-equal" style="display:flex;width:100%;margin-top:1rem;margin-bottom:1rem;padding-left:1rem;padding-right:1rem;">
+      <div class=""
+        style="margin-right:1rem;padding-top:1rem;padding-left:3rem;padding-top:3rem;padding-right:3rem;text-align:center;background-color:white;">
+        <div class="" style="margin-top:1rem;margin-bottom:1rem;padding-top:1rem;padding-bottom:1rem;">
+          <h2 class="" style="font-weight:300;line-height:1.2">Another headline</h2>
+          <p class="" style="font-size:1.25rem;font-weight:300;">And wittier subheading</p>
+        </div>
+        <div class=""
+          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;margin-right:auto;margin-left:auto;width: 80%; height: 300px; border-radius: 21px 21px 0 0;--bs-bg-opacity:1;background-color:black;">
+        </div>
+      </div>
+      <div class=""
+        style="margin-right:1rem;padding-top:1rem;padding-left:3rem;padding-top:3rem;padding-right:3rem;text-align:center;color:#fff;background-color:RGBA(13,110,253);">
+        <div class="" style="margin-top:1rem;margin-bottom:1rem;padding-top:1rem;padding-bottom:1rem;">
+          <h2 class="" style="font-weight:300;line-height:1.2;">Another headline</h2>
+          <p class="" style="font-size:1.25rem;font-weight:300;">And wittier subheading</p>
+        </div>
+        <div class=""
+          style="margin-right:auto;margin-left:auto;width: 80%; height: 300px; border-radius: 21px 21px 0 0;--bs-bg-opacity:1;background-color:white;">
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+
+
+  <script>
+
+    $(document).ready(function(){
+      //header目前選取項目為灰色
+      $("ul li a").click(function(){
+        $("ul li a").removeClass("li-active");
+        $(this).addClass("li-active");
+      });
+  });
+    
+
+  </script>
+</body>
+
+</html>
