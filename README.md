@@ -7,6 +7,8 @@ https://drive.google.com/drive/folders/1xStFCLB3-8xOQSMz3BGtVO90rdlgx_a4?usp=sha
 
 ## 寫過部分前端及專題APP
 
+![main page](https://i.imgur.com/mS5eQ9g.png " ")
+
 ![main page](https://i.imgur.com/yZyu6es.jpg " ")
 
 ![main page](https://i.imgur.com/GJv1azv.jpg " ")
