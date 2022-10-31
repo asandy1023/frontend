@@ -1,6 +1,6 @@
 # APP 跟前端網頁
 
-近期跟著runoob教學網站html, css, javascript, jquery, step by step每個都實踐過
+近期跟著runoob教學網站html, css, javascript, jquery, step by step學習並實踐
 
 
 https://drive.google.com/drive/folders/1xStFCLB3-8xOQSMz3BGtVO90rdlgx_a4?usp=sharing
