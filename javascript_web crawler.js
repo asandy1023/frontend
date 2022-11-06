@@ -1,3 +1,7 @@
+//蝦皮web crawler
+//螢幕縮放25%
+//https://shopee.tw/search?keyword=nintendo%20switch&page=1 到console執行此程式 進行爬蟲抓商品資訊
+
 let nowPage = 0;
 let nextPage = 2;
 let doagain = false;
