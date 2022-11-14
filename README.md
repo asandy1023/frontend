@@ -2,7 +2,7 @@
 
 近期跟著runoob教學網站html, css, javascript, jquery, step by step學習並實踐
 
-持續深度學習w3school的css以及jquery
+持續複習w3school的css以及jquery
 
 https://drive.google.com/drive/folders/1xStFCLB3-8xOQSMz3BGtVO90rdlgx_a4?usp=sharing
 
